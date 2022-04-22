@@ -52,4 +52,4 @@ jobs:
           echo Unified Agent downloaded successfully
           WARFILE=$(find ./build/libs -type f -wholename "*.war")
           echo $WARFILE will be added to appPath
-          java -jar wss-unified-agent.jar -appPath $WARFILE -d ./
+          java -jar wss-unified-agent.jar -appPath $WARFILE -d .\
