@@ -19,7 +19,7 @@
     "extends": [
       "github>whitesource/merge-confidence:beta",
       "github>samq-ghdemo/renovate:demo",
-      "extends": ["github>renovatebot/spring-remediations"]
+      "github>renovatebot/spring-remediations"
       ]
   }
   
